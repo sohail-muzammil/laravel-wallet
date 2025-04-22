@@ -41,5 +41,7 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+
+        @include('cookie-consent::index')
     </body>
 </html>

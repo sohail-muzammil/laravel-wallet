@@ -20,6 +20,7 @@ return Application::configure(basePath: dirname(__DIR__))
             HandleAppearance::class,
             HandleInertiaRequests::class,
             AddLinkHeadersForPreloadedAssets::class,
+            \Spatie\CookieConsent\CookieConsentMiddleware::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
